@@ -9,7 +9,6 @@ import 'themes/themes.dart';
 void main()  async{
   WidgetsFlutterBinding.ensureInitialized();
   AwesomeNotifications awesomeNotifications =AwesomeNotifications();
-
    await awesomeNotifications.initialize('resource://drawable/res_app_icon', [
     NotificationChannel(
         channelGroupKey: 'test_group',
